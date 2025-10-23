@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main() {
-  // simple Loop
 
   for (int i = 0; i < 5; i++) {
     print(i);
