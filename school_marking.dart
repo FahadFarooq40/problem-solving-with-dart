@@ -9,7 +9,6 @@ void main() {
   String? scienceInput = stdin.readLineSync();
   stdout.write('Enter your Islamic Number: ');
   String? islamicInput = stdin.readLineSync();
-
   int english = int.tryParse(englishInput ?? '0') ?? 0;
   int computer = int.tryParse(computerInput ?? '0') ?? 0;
   int science = int.tryParse(scienceInput ?? '0') ?? 0;
