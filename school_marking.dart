@@ -14,7 +14,6 @@ void main() {
   int islamic = int.tryParse(islamicInput ?? '0') ?? 0;
 
   int TotalNumber = english + computer + science + islamic;
-
   double percentage = (TotalNumber / 400) * 100;
 
   double FailSubjects = percentage = 40;
