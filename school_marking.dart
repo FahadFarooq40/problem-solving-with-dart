@@ -17,7 +17,6 @@ void main() {
   double percentage = (TotalNumber / 400) * 100;
 
   double FailSubjects = percentage = 40;
-
   if (FailSubjects < 0) {
     print("F+");
   } else if (percentage > 89) {
